@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D608B0BF1D98B1040071692C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608B0BE1D98B1040071692C /* AppDelegate.swift */; };
+		D608B0C11D98B1040071692C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608B0C01D98B1040071692C /* ViewController.swift */; };
+		D608B0C41D98B1040071692C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608B0C21D98B1040071692C /* Main.storyboard */; };
+		D608B0C61D98B1040071692C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608B0C51D98B1040071692C /* Assets.xcassets */; };
+		D608B0C91D98B1040071692C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608B0C71D98B1040071692C /* LaunchScreen.storyboard */; };
+		D608B0D41D98B1050071692C /* google_calendar_api2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608B0D31D98B1050071692C /* google_calendar_api2Tests.swift */; };
+		D608B0DF1D98B1050071692C /* google_calendar_api2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608B0DE1D98B1050071692C /* google_calendar_api2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D608B0D01D98B1050071692C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D608B0B31D98B1040071692C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D608B0BA1D98B1040071692C;
+			remoteInfo = google_calendar_api2;
+		};
+		D608B0DB1D98B1050071692C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D608B0B31D98B1040071692C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D608B0BA1D98B1040071692C;
+			remoteInfo = google_calendar_api2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D608B0BB1D98B1040071692C /* google_calendar_api2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = google_calendar_api2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D608B0BE1D98B1040071692C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D608B0C01D98B1040071692C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D608B0C31D98B1040071692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D608B0C51D98B1040071692C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D608B0C81D98B1040071692C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D608B0CA1D98B1040071692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D608B0CF1D98B1050071692C /* google_calendar_api2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = google_calendar_api2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D608B0D31D98B1050071692C /* google_calendar_api2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_calendar_api2Tests.swift; sourceTree = "<group>"; };
+		D608B0D51D98B1050071692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D608B0DA1D98B1050071692C /* google_calendar_api2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = google_calendar_api2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D608B0DE1D98B1050071692C /* google_calendar_api2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_calendar_api2UITests.swift; sourceTree = "<group>"; };
+		D608B0E01D98B1050071692C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D608B0B81D98B1040071692C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0CC1D98B1050071692C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0D71D98B1050071692C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D608B0B21D98B1040071692C = {
+			isa = PBXGroup;
+			children = (
+				D608B0BD1D98B1040071692C /* google_calendar_api2 */,
+				D608B0D21D98B1050071692C /* google_calendar_api2Tests */,
+				D608B0DD1D98B1050071692C /* google_calendar_api2UITests */,
+				D608B0BC1D98B1040071692C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D608B0BC1D98B1040071692C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D608B0BB1D98B1040071692C /* google_calendar_api2.app */,
+				D608B0CF1D98B1050071692C /* google_calendar_api2Tests.xctest */,
+				D608B0DA1D98B1050071692C /* google_calendar_api2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D608B0BD1D98B1040071692C /* google_calendar_api2 */ = {
+			isa = PBXGroup;
+			children = (
+				D608B0BE1D98B1040071692C /* AppDelegate.swift */,
+				D608B0C01D98B1040071692C /* ViewController.swift */,
+				D608B0C21D98B1040071692C /* Main.storyboard */,
+				D608B0C51D98B1040071692C /* Assets.xcassets */,
+				D608B0C71D98B1040071692C /* LaunchScreen.storyboard */,
+				D608B0CA1D98B1040071692C /* Info.plist */,
+			);
+			path = google_calendar_api2;
+			sourceTree = "<group>";
+		};
+		D608B0D21D98B1050071692C /* google_calendar_api2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D608B0D31D98B1050071692C /* google_calendar_api2Tests.swift */,
+				D608B0D51D98B1050071692C /* Info.plist */,
+			);
+			path = google_calendar_api2Tests;
+			sourceTree = "<group>";
+		};
+		D608B0DD1D98B1050071692C /* google_calendar_api2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D608B0DE1D98B1050071692C /* google_calendar_api2UITests.swift */,
+				D608B0E01D98B1050071692C /* Info.plist */,
+			);
+			path = google_calendar_api2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D608B0BA1D98B1040071692C /* google_calendar_api2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D608B0E31D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2" */;
+			buildPhases = (
+				D608B0B71D98B1040071692C /* Sources */,
+				D608B0B81D98B1040071692C /* Frameworks */,
+				D608B0B91D98B1040071692C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = google_calendar_api2;
+			productName = google_calendar_api2;
+			productReference = D608B0BB1D98B1040071692C /* google_calendar_api2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D608B0CE1D98B1050071692C /* google_calendar_api2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D608B0E61D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2Tests" */;
+			buildPhases = (
+				D608B0CB1D98B1050071692C /* Sources */,
+				D608B0CC1D98B1050071692C /* Frameworks */,
+				D608B0CD1D98B1050071692C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D608B0D11D98B1050071692C /* PBXTargetDependency */,
+			);
+			name = google_calendar_api2Tests;
+			productName = google_calendar_api2Tests;
+			productReference = D608B0CF1D98B1050071692C /* google_calendar_api2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D608B0D91D98B1050071692C /* google_calendar_api2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D608B0E91D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2UITests" */;
+			buildPhases = (
+				D608B0D61D98B1050071692C /* Sources */,
+				D608B0D71D98B1050071692C /* Frameworks */,
+				D608B0D81D98B1050071692C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D608B0DC1D98B1050071692C /* PBXTargetDependency */,
+			);
+			name = google_calendar_api2UITests;
+			productName = google_calendar_api2UITests;
+			productReference = D608B0DA1D98B1050071692C /* google_calendar_api2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D608B0B31D98B1040071692C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "中村祐太";
+				TargetAttributes = {
+					D608B0BA1D98B1040071692C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D608B0CE1D98B1050071692C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D608B0BA1D98B1040071692C;
+					};
+					D608B0D91D98B1050071692C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D608B0BA1D98B1040071692C;
+					};
+				};
+			};
+			buildConfigurationList = D608B0B61D98B1040071692C /* Build configuration list for PBXProject "google_calendar_api2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D608B0B21D98B1040071692C;
+			productRefGroup = D608B0BC1D98B1040071692C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D608B0BA1D98B1040071692C /* google_calendar_api2 */,
+				D608B0CE1D98B1050071692C /* google_calendar_api2Tests */,
+				D608B0D91D98B1050071692C /* google_calendar_api2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D608B0B91D98B1040071692C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D608B0C91D98B1040071692C /* LaunchScreen.storyboard in Resources */,
+				D608B0C61D98B1040071692C /* Assets.xcassets in Resources */,
+				D608B0C41D98B1040071692C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0CD1D98B1050071692C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0D81D98B1050071692C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D608B0B71D98B1040071692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D608B0C11D98B1040071692C /* ViewController.swift in Sources */,
+				D608B0BF1D98B1040071692C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0CB1D98B1050071692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D608B0D41D98B1050071692C /* google_calendar_api2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D608B0D61D98B1050071692C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D608B0DF1D98B1050071692C /* google_calendar_api2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D608B0D11D98B1050071692C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D608B0BA1D98B1040071692C /* google_calendar_api2 */;
+			targetProxy = D608B0D01D98B1050071692C /* PBXContainerItemProxy */;
+		};
+		D608B0DC1D98B1050071692C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D608B0BA1D98B1040071692C /* google_calendar_api2 */;
+			targetProxy = D608B0DB1D98B1050071692C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D608B0C21D98B1040071692C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D608B0C31D98B1040071692C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D608B0C71D98B1040071692C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D608B0C81D98B1040071692C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D608B0E11D98B1050071692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D608B0E21D98B1050071692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D608B0E41D98B1050071692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = google_calendar_api2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D608B0E51D98B1050071692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = google_calendar_api2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D608B0E71D98B1050071692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = google_calendar_api2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google_calendar_api2.app/google_calendar_api2";
+			};
+			name = Debug;
+		};
+		D608B0E81D98B1050071692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = google_calendar_api2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google_calendar_api2.app/google_calendar_api2";
+			};
+			name = Release;
+		};
+		D608B0EA1D98B1050071692C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = google_calendar_api2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = google_calendar_api2;
+			};
+			name = Debug;
+		};
+		D608B0EB1D98B1050071692C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = google_calendar_api2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnkmr.google-calendar-api2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = google_calendar_api2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D608B0B61D98B1040071692C /* Build configuration list for PBXProject "google_calendar_api2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D608B0E11D98B1050071692C /* Debug */,
+				D608B0E21D98B1050071692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D608B0E31D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D608B0E41D98B1050071692C /* Debug */,
+				D608B0E51D98B1050071692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D608B0E61D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D608B0E71D98B1050071692C /* Debug */,
+				D608B0E81D98B1050071692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D608B0E91D98B1050071692C /* Build configuration list for PBXNativeTarget "google_calendar_api2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D608B0EA1D98B1050071692C /* Debug */,
+				D608B0EB1D98B1050071692C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D608B0B31D98B1040071692C /* Project object */;
+}
